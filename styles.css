@@ -1,0 +1,9 @@
+* {
+  font-family: "Windows XP";
+  font-size: 1.1rem;
+}
+
+@font-face {
+  font-family: "Windows XP";
+  src: url("./assets/windows-xp-tahoma.otf.woff2");
+}
