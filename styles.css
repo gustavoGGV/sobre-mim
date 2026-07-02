@@ -70,3 +70,14 @@
   image-rendering: pixelated;
   transition: transform .4s ease;
 }
+
+@media screen and (max-width: 1000px) {
+  .clippy {
+    width: 90px;
+    height: 80px;
+  }
+  .welcome {
+    width: 133px;
+    height: 100px;
+  }
+}
