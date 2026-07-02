@@ -1,12 +1,17 @@
 const viewModeBtn = document.getElementById("view-mode");
+const backToTopBtn = document.getElementById("back-to-top");
 const body = document.querySelector("body");
+
+window.onscroll = () => {toggleDisplayBackToTopBtn()};
 
 setViewModeBasedOnLocalStorage();
 
 function changeViewMode() {
     viewModeBtn.classList.toggle("btn-dark");
     viewModeBtn.classList.toggle("btn-light");
-    
+    backToTopBtn.classList.toggle("btn-light");
+    backToTopBtn.classList.toggle("btn-dark");
+
     body.classList.toggle("bg-dark");
     body.classList.toggle("text-white");
     body.classList.toggle("bg-white");
@@ -21,7 +26,7 @@ function setViewModeOnLocalStorage() {
 
         return;
     }
-        
+
     localStorage.setItem("view-mode", "dark")
 }
 
@@ -39,4 +44,19 @@ function setViewModeBasedOnLocalStorage() {
 
         return;
     }
+}
+
+function toggleDisplayBackToTopBtn() {
+    if (body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTopBtn.classList.replace("d-none", "d-block");
+
+        return;
+    }
+
+    backToTopBtn.classList.replace("d-block", "d-none");
+}
+
+function scrollBackToTop() {
+    body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
