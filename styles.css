@@ -7,3 +7,66 @@
   font-family: "Windows XP";
   src: url("./assets/windows-xp-tahoma.otf.woff2");
 }
+
+.pixel-border {
+  padding: 8px;
+  background: #c0c0c0;
+  border: 3px solid #fff;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+  box-shadow:
+    0 0 0 4px #000,
+    4px 4px 0 4px #dfdfdf,
+    inset 0 0 0 2px #000;
+  image-rendering: pixelated;
+  display: inline-block;
+}
+
+.profile-img {
+  display: block;
+  border: 2px solid #000;
+  image-rendering: pixelated;
+  width: 360px;
+  height: 640px;
+  object-fit: cover;
+}
+
+.pixel-border:hover {
+  background: #dfdfdf;
+  box-shadow:
+    0 0 0 4px #000,
+    4px 4px 0 4px #fff,
+    inset 0 0 0 2px #000;
+  transition: all 0.2s;
+}
+
+.clippy-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.clippy {
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
+  image-rendering: pixelated; 
+  transition: transform 0.3s ease;
+}
+
+.welcome-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  pointer-events: none;
+  display: flex;
+  justify-content: end;
+  padding-right: 0 !important;
+}
+
+.welcome {
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, .7));
+  image-rendering: pixelated;
+  transition: transform .4s ease;
+}

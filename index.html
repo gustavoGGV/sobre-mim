@@ -13,30 +13,40 @@
 <body class="bg-black overflow-x-hidden">
   <!-- Seção Sobre -->
   <div class="row mt-5">
-    <div class="col-md-8 mx-auto text-white">
-      <h1 class="border-bottom pb-2 text-center fs-1">Sobre mim</h1>
+    <div class="clippy-container">
+      <img class="clippy" width="180px" height="160px" src="./assets/clippy-microsoft.gif" alt="Clippy">
+    </div>
+
+    <div class="welcome-container">
+      <img class="welcome" width="266px" height="200px" src="./assets/welcome.gif" alt="Welcome to my homepage">
+    </div>
+
+    <div class="col-md-8 mx-auto px-md-0 px-5 text-white">
+      <h1 class="border-bottom pb-3 text-center fs-1 mb-5">Sobre mim</h1>
+
       <div class="about-me d-flex flex-xl-row flex-column mt-4 mb-5 justify-content-between">
-        <div class="profile__container">
-          <img class="profile w-50" src="./assets/profile.gif">
+        <div class="profile__container d-flex justify-content-lg-start justify-content-center">
+          <div class="pixel-border">
+            <img class="profile-img" src="./assets/gustavoggv.jpg">
+          </div>
         </div>
 
-        <section class="mb-5">
-          <h2 class="pb-2 text-end">👋 E aí? Sou Gustavo</h2>
-          <p class="text-end"> 💻 Desenvolvedor Web e de Software.<br>🚀 Estudante assíduo de Leet Code.<br>🎓 Estudante
-            de
-            Desenvolvimento de Sistemas no IFPR.<br>💼 Freelancer.</p>
-          <p class="text-end">Atualmente estou estudando <strong>Rust</strong> e entrando na área da
+        <section class="mb-5 d-flex flex-column gap-3 text-lg-end text-center mt-lg-0 mt-5">
+          <h2 class="pb-3">👋 E aí? Sou Gustavo</h2>
+          <p> 💻 Desenvolvedor Web e de Software.<br>🚀 Estudante assíduo de Leet Code.<br>🎓 Estudante
+            de Desenvolvimento de Sistemas no IFPR.<br>💼 Freelancer.</p>
+          <p>Atualmente estou estudando <strong>Rust</strong> e entrando na área da
             <strong>Cibersegurança</strong>.<br>Estou sempre aberto a oportunidades
-            para colaborar em
-            projetos interessantes.
+            para colaborar em projetos interessantes.
           </p>
+          <img src="./assets/linux.gif">
         </section>
       </div>
 
       <!-- Habilidades Técnicas -->
       <section class="mb-5">
-        <h2 class="border-bottom pb-2">Habilidades Técnicas</h2>
-        <div class="d-flex flex-wrap gap-2 mt-3">
+        <h2 class="border-bottom pb-3">Habilidades Técnicas</h2>
+        <div class="d-flex flex-wrap gap-2 mt-4">
           <span class="badge bg-primary">HTML5</span>
           <span class="badge bg-primary">CSS3</span>
           <span class="badge bg-primary">JavaScript / TypeScript</span>
@@ -55,7 +65,7 @@
 
       <!-- Experiência Profissional -->
       <section class="mb-5">
-        <h2 class="border-bottom pb-2">Experiência Profissional</h2>
+        <h2 class="border-bottom pb-3">Experiência Profissional</h2>
         <div class="mt-4">
           <h5><strong>ShortSprint</strong></h5>
           <p class="mb-0 text-info">Desenvolvedor Web - Meio período</p>
@@ -70,13 +80,11 @@
 
       <!-- Freelas -->
       <section class="mb-5">
-        <h2 class="border-bottom pb-2">Trabalhos Freelancer</h2>
+        <h2 class="border-bottom pb-3">Trabalhos Freelancer</h2>
         <div class="mt-4">
           <h5 class="m-0"><strong>Fury Shop</strong></h5>
-          <p class="text-white mb-1">• Loja virtual de compra de licenças de contas e programas modificadores de jogos.
-          </p>
-          <p class="mb-0 text-info">Atribuições: construção do banco de dados, de painéis de gerenciamento para
-            administradores e do gateway de pagamento.</p>
+          <p class="text-white mb-1">• Loja virtual de compra de licenças de contas e programas modificadores de jogos.</p>
+          <p class="mb-0 text-info">Atribuições: construção do banco de dados, de painéis de gerenciamento para administradores e do gateway de pagamento.</p>
           <p class="small text-secondary">Abril de 2026 a Julho de 2026</p>
         </div>
         <div class="mt-4">
@@ -89,8 +97,8 @@
 
       <!-- Formação -->
       <section class="mb-5">
-        <h2 class="border-bottom pb-2">Formação Acadêmica</h2>
-        <div class="mt-3">
+        <h2 class="border-bottom pb-3">Formação Acadêmica</h2>
+        <div class="mt-4">
           <h5><strong>IFPR - Campus Foz do Iguaçu</strong></h5>
           <p class="mb-0 text-info">Ensino Médio Técnico em Desenvolvimento de Sistemas</p>
           <p class="small text-secondary">Início em 03/2023 | Previsão de término em 2026</p>
@@ -99,62 +107,51 @@
 
       <!-- Certificados -->
       <section class="mb-5">
-        <h2 class="border-bottom pb-2">Certificados</h2>
+        <h2 class="border-bottom pb-3">Certificados</h2>
+        <div class="mt-4">
+          <div class="d-flex flex-column mb-4">
+            <h5><strong>SOLUÇÃO DESTAQUE</strong> - Ocina (Olimpíada Científica de Integração Narcional)</h5>
+            <p class="m-0 text-info">Grupo de Popularização da Ciência do Sertão Sergipano • maio de 2026</p>
+            <a class="align-self-start" href="https://drive.google.com/file/d/1LO3xYkDfZKnDoxfC_TBAfGigno3HlZ11/view?usp=sharing" target="_blank">Certificado</a>
+          </div>
 
-        <div class="d-flex flex-column mb-4">
-          <h5><strong>SOLUÇÃO DESTAQUE</strong> - Ocina (Olimpíada Científica de Integração Narcional)</h5>
-          <p class="m-0 text-info">Grupo de Popularização da Ciência do Sertão Sergipano • maio de 2026</p>
-          <a class="align-self-start"
-            href="https://drive.google.com/file/d/1LO3xYkDfZKnDoxfC_TBAfGigno3HlZ11/view?usp=sharing"
-            target="_blank">Certificado</a>
-        </div>
+          <div class="d-flex flex-column mb-4">
+            <h5><strong>CONCLUSÃO DE CURSO</strong> - Java Programming I</h5>
+            <p class="m-0 text-info">Departamento de Ciência da Computação da Universidade de Helsinque</p>
+            <a class="align-self-start" href="https://drive.google.com/file/d/10C1Brr-QIKwuSNsKxMWz5GYQS59WpIh5/view?usp=sharing" target="_blank">Certificado</a>
+          </div>
 
-        <div class="d-flex flex-column mb-4">
-          <h5><strong>CONCLUSÃO DE CURSO</strong> - Java Programming I</h5>
-          <p class="m-0 text-info">Departamento de Ciência da Computação da Universidade de Helsinque</p>
-          <a class="align-self-start"
-            href="https://drive.google.com/file/d/10C1Brr-QIKwuSNsKxMWz5GYQS59WpIh5/view?usp=sharing"
-            target="_blank">Certificado</a>
-        </div>
+          <div class="d-flex flex-column mb-4">
+            <h5><strong>CONCLUSÃO DE CURSO</strong> - Conceitos e Fundamentos: Algoritmos e Programação Orientada a Objetos com Swift</h5>
+            <p class="m-0 text-info">Instituto de Pesquisas Eldorado • novembro de 2023 a fevereiro de 2024</p>
+            <a class="align-self-start" href="https://drive.google.com/file/d/1v9cgJyQBrlA-t6U6VQRE18zcWtBAGbS4/view?usp=sharing" target="_blank">Certificado</a>
+          </div>
 
-        <div class="d-flex flex-column mb-4">
-          <h5><strong>CONCLUSÃO DE CURSO</strong> - Conceitos e Fundamentos: Algoritmos e Programação Orientada a Objetos com Swift</h5>
-          <p class="m-0 text-info">Instituto de Pesquisas Eldorado • novembro de 2023 a fevereiro de 2024</p>
-          <a class="align-self-start"
-            href="https://drive.google.com/file/d/1v9cgJyQBrlA-t6U6VQRE18zcWtBAGbS4/view?usp=sharing"
-            target="_blank">Certificado</a>
-        </div>
+          <div class="d-flex flex-column mb-4">
+            <h5><strong>CONCLUSÃO DE CURSO</strong> - Design para quem não é designer</h5>
+            <p class="m-0 text-info">PUCRS • outubro de 2024</p>
+            <a class="align-self-start" href="https://drive.google.com/file/d/1iSB6JwEVSYqU8W0patHBcKosK6IN_ltb/view?usp=sharing" target="_blank">Certificado</a>
+          </div>
 
-        <div class="d-flex flex-column mb-4">
-          <h5><strong>CONCLUSÃO DE CURSO</strong> - Design para quem não é designer</h5>
-          <p class="m-0 text-info">PUCRS • outubro de 2024</p>
-          <a class="align-self-start"
-            href="https://drive.google.com/file/d/1iSB6JwEVSYqU8W0patHBcKosK6IN_ltb/view?usp=sharing"
-            target="_blank">Certificado</a>
-        </div>
+          <div class="d-flex flex-column mb-4">
+            <h5><strong>PARTICIPAÇÃO</strong> - Latinoware 2025</h5>
+            <p class="m-0 text-info">Latinoware • outubro de 2025</p>
+            <a class="align-self-start" href="https://drive.google.com/file/d/1K3sXxGrNDGXgq4NvXRmIPefS5U0lCePA/view?usp=sharing" target="_blank">Certificado</a>
+          </div>
 
-        <div class="d-flex flex-column mb-4">
-          <h5><strong>PARTICIPAÇÃO</strong> - Latinoware 2025</h5>
-          <p class="m-0 text-info">Latinoware • outubro de 2025</p>
-          <a class="align-self-start"
-            href="https://drive.google.com/file/d/1K3sXxGrNDGXgq4NvXRmIPefS5U0lCePA/view?usp=sharing"
-            target="_blank">Certificado</a>
-        </div>
-
-        <div class="d-flex flex-column mb-4">
-          <h5><strong>PARTICIPAÇÃO</strong> - Startup Day 2026</h5>
-          <p class="m-0 text-info">SEBRAE • março de 2026</p>
-          <a class="align-self-start"
-            href="https://drive.google.com/file/d/1sx-n_CiMHEP03WutFsczJ2xnt6hoePWV/view?usp=sharing"
-            target="_blank">Certificado</a>
+          <div class="d-flex flex-column mb-4">
+            <h5><strong>PARTICIPAÇÃO</strong> - Startup Day 2026</h5>
+            <p class="m-0 text-info">SEBRAE • março de 2026</p>
+            <a class="align-self-start" href="https://drive.google.com/file/d/1sx-n_CiMHEP03WutFsczJ2xnt6hoePWV/view?usp=sharing" target="_blank">Certificado</a>
+          </div>
         </div>
       </section>
 
       <!-- Specs -->
       <section class="mb-5">
-        <h2 class="border-bottom pb-2">Especificações da Máquina Atual</h2>
-
-        <pre class="d-flex flex-xl-row flex-column justify-content-between align-items-center">
+        <h2 class="border-bottom pb-3">Especificações da Máquina Atual</h2>
+        <div class="mt-4">
+          <pre class="d-flex flex-xl-row flex-column justify-content-between align-items-center">
              __ygg@@@@@@@@@ggy__          
          _yg@@@@@@@@@@@@@@@@@@@@@gy_
       _a@@@@@@@@@@@@@@@@@@@@@@@@@@@@@y_
@@ -199,27 +196,22 @@ GPU: NVIDIA GeForce GTX 750 Ti [Discrete]
 
 </div>
 </pre>
+        </div>
       </section>
 
-      <!-- Estatísticas -->
+      <!-- GitHub -->
       <section class="mb-5">
-        <h2 class="border-bottom pb-2">GitHub</h2>
-
+        <h2 class="border-bottom pb-3">GitHub</h2>
         <div class="text-center mt-4">
-
           <img src="[GitHub Readme Stats URL]" class="img-fluid mb-3" alt="GitHub Stats">
-
           <img src="[GitHub Streak Stats URL]" class="img-fluid mb-3" alt="GitHub Streak">
-
           <img src="[Top Languages URL]" class="img-fluid" alt="Top Languages">
-
         </div>
       </section>
 
       <!-- Contato -->
       <footer class="mt-5 pt-4 text-center border-top mb-5">
-        <p>E-mail: <a href="mailto:gustavo.vieira.tds2023@gmail.com"
-            class="text-info">gustavo.vieira.tds2023@gmail.com</a></p>
+        <p>E-mail: <a href="mailto:gustavo.vieira.tds2023@gmail.com" class="text-info">gustavo.vieira.tds2023@gmail.com</a></p>
       </footer>
     </div>
   </div> <!-- Fim do container principal -->
