@@ -71,6 +71,12 @@
   transition: transform .4s ease;
 }
 
+.view-mode-container {
+  position: fixed;
+  z-index: 9999;
+  left: 20px;
+}
+
 @media screen and (max-width: 1000px) {
   .clippy {
     width: 90px;

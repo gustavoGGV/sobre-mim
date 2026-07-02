@@ -8,11 +8,16 @@
   <link rel="stylesheet" href="styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
 <body class="bg-white text-black overflow-x-hidden">
   <!-- Seção Sobre -->
   <div class="row mt-5">
+    <div class="view-mode-container">
+      <button onClick="changeViewMode()" id="view-mode" class="btn btn-dark"><i class="bi bi-moon-stars"></i></button>
+    </div>
+
     <div class="clippy-container">
       <img class="clippy" width="180px" height="160px" src="./assets/clippy-microsoft.gif" alt="Clippy">
     </div>
@@ -84,7 +89,8 @@
         <div class="mt-4">
           <h5 class="m-0"><strong>Fury Shop</strong></h5>
           <p class="mb-1">• Loja virtual de compra de licenças de contas e programas modificadores de jogos.</p>
-          <p class="mb-0 text-info">Atribuições: construção do banco de dados, de painéis de gerenciamento para administradores e do gateway de pagamento.</p>
+          <p class="mb-0 text-info">Atribuições: construção do banco de dados, de painéis de gerenciamento para
+            administradores e do gateway de pagamento.</p>
           <p class="small text-secondary">Abril de 2026 a Julho de 2026</p>
         </div>
         <div class="mt-4">
@@ -112,37 +118,50 @@
           <div class="d-flex flex-column mb-4">
             <h5><strong>SOLUÇÃO DESTAQUE</strong> - Ocina (Olimpíada Científica de Integração Narcional)</h5>
             <p class="m-0 text-info">Grupo de Popularização da Ciência do Sertão Sergipano • maio de 2026</p>
-            <a class="align-self-start" href="https://drive.google.com/file/d/1LO3xYkDfZKnDoxfC_TBAfGigno3HlZ11/view?usp=sharing" target="_blank">Certificado</a>
+            <a class="align-self-start"
+              href="https://drive.google.com/file/d/1LO3xYkDfZKnDoxfC_TBAfGigno3HlZ11/view?usp=sharing"
+              target="_blank">Certificado</a>
           </div>
 
           <div class="d-flex flex-column mb-4">
             <h5><strong>CONCLUSÃO DE CURSO</strong> - Java Programming I</h5>
             <p class="m-0 text-info">Departamento de Ciência da Computação da Universidade de Helsinque</p>
-            <a class="align-self-start" href="https://drive.google.com/file/d/10C1Brr-QIKwuSNsKxMWz5GYQS59WpIh5/view?usp=sharing" target="_blank">Certificado</a>
+            <a class="align-self-start"
+              href="https://drive.google.com/file/d/10C1Brr-QIKwuSNsKxMWz5GYQS59WpIh5/view?usp=sharing"
+              target="_blank">Certificado</a>
           </div>
 
           <div class="d-flex flex-column mb-4">
-            <h5><strong>CONCLUSÃO DE CURSO</strong> - Conceitos e Fundamentos: Algoritmos e Programação Orientada a Objetos com Swift</h5>
+            <h5><strong>CONCLUSÃO DE CURSO</strong> - Conceitos e Fundamentos: Algoritmos e Programação Orientada a
+              Objetos com Swift</h5>
             <p class="m-0 text-info">Instituto de Pesquisas Eldorado • novembro de 2023 a fevereiro de 2024</p>
-            <a class="align-self-start" href="https://drive.google.com/file/d/1v9cgJyQBrlA-t6U6VQRE18zcWtBAGbS4/view?usp=sharing" target="_blank">Certificado</a>
+            <a class="align-self-start"
+              href="https://drive.google.com/file/d/1v9cgJyQBrlA-t6U6VQRE18zcWtBAGbS4/view?usp=sharing"
+              target="_blank">Certificado</a>
           </div>
 
           <div class="d-flex flex-column mb-4">
             <h5><strong>CONCLUSÃO DE CURSO</strong> - Design para quem não é designer</h5>
             <p class="m-0 text-info">PUCRS • outubro de 2024</p>
-            <a class="align-self-start" href="https://drive.google.com/file/d/1iSB6JwEVSYqU8W0patHBcKosK6IN_ltb/view?usp=sharing" target="_blank">Certificado</a>
+            <a class="align-self-start"
+              href="https://drive.google.com/file/d/1iSB6JwEVSYqU8W0patHBcKosK6IN_ltb/view?usp=sharing"
+              target="_blank">Certificado</a>
           </div>
 
           <div class="d-flex flex-column mb-4">
             <h5><strong>PARTICIPAÇÃO</strong> - Latinoware 2025</h5>
             <p class="m-0 text-info">Latinoware • outubro de 2025</p>
-            <a class="align-self-start" href="https://drive.google.com/file/d/1K3sXxGrNDGXgq4NvXRmIPefS5U0lCePA/view?usp=sharing" target="_blank">Certificado</a>
+            <a class="align-self-start"
+              href="https://drive.google.com/file/d/1K3sXxGrNDGXgq4NvXRmIPefS5U0lCePA/view?usp=sharing"
+              target="_blank">Certificado</a>
           </div>
 
           <div class="d-flex flex-column mb-4">
             <h5><strong>PARTICIPAÇÃO</strong> - Startup Day 2026</h5>
             <p class="m-0 text-info">SEBRAE • março de 2026</p>
-            <a class="align-self-start" href="https://drive.google.com/file/d/1sx-n_CiMHEP03WutFsczJ2xnt6hoePWV/view?usp=sharing" target="_blank">Certificado</a>
+            <a class="align-self-start"
+              href="https://drive.google.com/file/d/1sx-n_CiMHEP03WutFsczJ2xnt6hoePWV/view?usp=sharing"
+              target="_blank">Certificado</a>
           </div>
         </div>
       </section>
@@ -211,10 +230,13 @@ GPU: NVIDIA GeForce GTX 750 Ti [Discrete]
 
       <!-- Contato -->
       <footer class="mt-5 pt-4 text-center border-top mb-5">
-        <p>E-mail: <a href="mailto:gustavo.vieira.tds2023@gmail.com" class="text-info">gustavo.vieira.tds2023@gmail.com</a></p>
+        <p>E-mail: <a href="mailto:gustavo.vieira.tds2023@gmail.com"
+            class="text-info">gustavo.vieira.tds2023@gmail.com</a></p>
       </footer>
     </div>
   </div> <!-- Fim do container principal -->
+
+  <script src="./view-mode.js"></script>
 </body>
 
 </html>
