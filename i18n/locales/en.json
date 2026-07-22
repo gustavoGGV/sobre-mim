@@ -1,0 +1,123 @@
+{
+  "Head": {
+    "title": "About me"
+  },
+  "About": {
+    "title": "About me",
+    "greeting": "👋 Hey there! I'm Gustavo",
+    "bioLine1": "💻 Web and Software Developer.",
+    "bioLine2": "🚀 Dedicated LeetCode student.",
+    "bioLine3": "🎓 Systems Development student at IFPR.",
+    "bioLine4": "💼 Freelancer.",
+    "bioParagraph": "Currently studying C and getting into Cybersecurity.",
+    "bioParagraphSecondary": "Always open to opportunities to collaborate on interesting projects."
+  },
+  "TechnicalSkills": {
+    "title": "Technical Skills",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript / TypeScript",
+      "React Native / JS",
+      "NextJS",
+      "Python",
+      "PHP",
+      "Java",
+      "Swift",
+      "MySQL",
+      "SQLite",
+      "Linux / Windows Management",
+      "Database Modeling"
+    ]
+  },
+  "ProfessionalExperience": {
+    "title": "Professional Experience",
+    "items": [
+      {
+        "company": "ShortSprint",
+        "role": "Web Developer - Part-time",
+        "period": "November 2025 to May 2026"
+      },
+      {
+        "company": "Reembolsa APP",
+        "role": "Software Developer - Part-time",
+        "period": "March 2025 to November 2025"
+      }
+    ]
+  },
+  "FreelanceWork": {
+    "title": "Freelance Work",
+    "items": [
+      {
+        "title": "Fury Shop",
+        "description": "E-commerce for account licenses and game modding software.",
+        "tasks": "Responsibilities: database creation, admin management panels, and payment gateway setup.",
+        "period": "April 2026 to July 2026"
+      },
+      {
+        "title": "Harmonia: Centro de Beleza e Saúde",
+        "description": "Beauty salon and aesthetics clinic.",
+        "tasks": "Responsibility: landing page development.",
+        "period": "May 2026 to June 2026"
+      }
+    ]
+  },
+  "AcademicBackground": {
+    "title": "Academic Background",
+    "institution": "IFPR - Campus Foz do Iguaçu",
+    "course": "Technical High School in Systems Development",
+    "period": "Started in 03/2023 | Expected completion in 2026"
+  },
+  "Certificates": {
+    "title": "Certificates",
+    "linkLabel": "Certificate",
+    "items": [
+      {
+        "type": "FEATURED SOLUTION",
+        "name": "Ocina (Olimpíada Científica de Integração Nacional)",
+        "issuer": "Grupo de Popularização da Ciência do Sertão Sergipano",
+        "date": "May 2026"
+      },
+      {
+        "type": "COURSE COMPLETION",
+        "name": "Java Programming I",
+        "issuer": "Departamento de Ciência da Computação da Universidade de Helsinque",
+        "date": "unspecified"
+      },
+      {
+        "type": "COURSE COMPLETION",
+        "name": "Concepts and Fundamentals: Algorithms and Object-Oriented Programming with Swift",
+        "issuer": "Instituto de Pesquisas Eldorado",
+        "date": "November 2023 to February 2024"
+      },
+      {
+        "type": "COURSE COMPLETION",
+        "name": "Design para quem não é designer",
+        "issuer": "PUCRS",
+        "date": "October 2024"
+      },
+      {
+        "type": "PARTICIPATION",
+        "name": "Latinoware 2025",
+        "issuer": "Latinoware",
+        "date": "October 2025"
+      },
+      {
+        "type": "PARTICIPATION",
+        "name": "Startup Day 2026",
+        "issuer": "SEBRAE",
+        "date": "March 2026",
+        "url": "https://drive.google.com/file/d/1sx-n_CiMHEP03WutFsczJ2xnt6hoePWV/view?usp=sharing"
+      }
+    ]
+  },
+  "Specs": {
+    "title": "Current Machine Specifications"
+  },
+  "Social": {
+    "title": "Social Media"
+  },
+  "Footer": {
+    "emailLabel": "Email:"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "Head": {
+    "title": "Sobre mim"
+  },
+  "About": {
+    "title": "Sobre mim",
+    "greeting": "👋 E aí? Sou Gustavo",
+    "bioLine1": "💻 Desenvolvedor Web e de Software.",
+    "bioLine2": "🚀 Estudante assíduo de LeetCode.",
+    "bioLine3": "🎓 Estudante de Desenvolvimento de Sistemas no IFPR.",
+    "bioLine4": "💼 Freelancer.",
+    "bioParagraph": "Atualmente estou estudando C e entrando na área da Cibersegurança.",
+    "bioParagraphSecondary": "Estou sempre aberto a oportunidades para colaborar em projetos interessantes."
+  },
+  "TechnicalSkills": {
+    "title": "Habilidades Técnicas",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript / TypeScript",
+      "React Native / JS",
+      "NextJS",
+      "Python",
+      "PHP",
+      "Java",
+      "Swift",
+      "MySQL",
+      "SQLite",
+      "Manuseio de Linux / Windows",
+      "Modelagem de Banco de Dados"
+    ]
+  },
+  "ProfessionalExperience": {
+    "title": "Experiência Profissional",
+    "items": [
+      {
+        "company": "ShortSprint",
+        "role": "Desenvolvedor Web - Meio período",
+        "period": "Novembro de 2025 a Maio de 2026"
+      },
+      {
+        "company": "Reembolsa APP",
+        "role": "Desenvolvedor de Software - Meio período",
+        "period": "Março de 2025 a Novembro de 2025"
+      }
+    ]
+  },
+  "FreelanceWork": {
+    "title": "Trabalhos Freelancer",
+    "items": [
+      {
+        "title": "Fury Shop",
+        "description": "Loja virtual de compra de licenças de contas e programas modificadores de jogos.",
+        "tasks": "Atribuições: construção do banco de dados, de painéis de gerenciamento para administradores e do gateway de pagamento.",
+        "period": "Abril de 2026 a Julho de 2026"
+      },
+      {
+        "title": "Harmonia: Centro de Beleza e Saúde",
+        "description": "Salão de beleza e clínica de estética.",
+        "tasks": "Atribuição: construção da landing page.",
+        "period": "Maio de 2026 a Junho de 2026"
+      }
+    ]
+  },
+  "AcademicBackground": {
+    "title": "Formação Acadêmica",
+    "institution": "IFPR - Campus Foz do Iguaçu",
+    "course": "Ensino Médio Técnico em Desenvolvimento de Sistemas",
+    "period": "Início em 03/2023 | Previsão de término em 2026"
+  },
+  "Certificates": {
+    "title": "Certificados",
+    "linkLabel": "Certificado",
+    "items": [
+      {
+        "type": "SOLUÇÃO DESTAQUE",
+        "name": "Ocina (Olimpíada Científica de Integração Nacional)",
+        "issuer": "Grupo de Popularização da Ciência do Sertão Sergipano",
+        "date": "maio de 2026"
+      },
+      {
+        "type": "CONCLUSÃO DE CURSO",
+        "name": "Java Programming I",
+        "issuer": "Departamento de Ciência da Computação da Universidade de Helsinque",
+        "date": "não especificada"
+      },
+      {
+        "type": "CONCLUSÃO DE CURSO",
+        "name": "Conceitos e Fundamentos: Algoritmos e Programação Orientada a Objetos com Swift",
+        "issuer": "Instituto de Pesquisas Eldorado",
+        "date": "novembro de 2023 a fevereiro de 2024"
+      },
+      {
+        "type": "CONCLUSÃO DE CURSO",
+        "name": "Design para quem não é designer",
+        "issuer": "PUCRS",
+        "date": "outubro de 2024"
+      },
+      {
+        "type": "PARTICIPAÇÃO",
+        "name": "Latinoware 2025",
+        "issuer": "Latinoware",
+        "date": "outubro de 2025"
+      },
+      {
+        "type": "PARTICIPAÇÃO",
+        "name": "Startup Day 2026",
+        "issuer": "SEBRAE",
+        "date": "março de 2026",
+        "url": "https://drive.google.com/file/d/1sx-n_CiMHEP03WutFsczJ2xnt6hoePWV/view?usp=sharing"
+      }
+    ]
+  },
+  "Specs": {
+    "title": "Especificações da Máquina Atual"
+  },
+  "Social": {
+    "title": "Redes"
+  },
+  "Footer": {
+    "emailLabel": "E-mail:"
+  }
+}
